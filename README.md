@@ -1,5 +1,3 @@
-<img width="565" height="535" alt="refresh page" src="https://github.com/user-attachments/assets/eaab9ef2-92cb-4899-856f-d786f033e3f8" /><img width="457" height="418" alt="Home" src="https://github.com/user-attachments/assets/fbbd198c-6ba5-4e4a-90db-b0ec34ddb0c7" />Praktikum 11-12
-
 Biodata
 - Nama: Difa Calista Felicia
 - NIM: 2410501018
