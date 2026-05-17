@@ -42,6 +42,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         Meal currentMeal = meals.get(position);
 
         holder.binding.tvMeal.setText(currentMeal.getStrMeal());
+        holder.binding.tvCategory.setText(context.getString(R.string.food_category));
 
         Glide.with(context)
                 .load(currentMeal.getStrMealThumb())

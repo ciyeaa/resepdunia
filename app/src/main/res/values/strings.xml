@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name" translatable="false">Resep Dunia</string>
     <string name="food_name">Nama Makanan</string>
+    <string name="food_category">Kategori: Dessert</string>
     <string name="description">Deskripsi</string>
 </resources>

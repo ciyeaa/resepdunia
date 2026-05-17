@@ -38,10 +38,8 @@ public class MainActivity extends AppCompatActivity {
         mealList = new ArrayList<>();
         setupRecyclerView();
 
-        // Load data pertama kali
         loadData();
 
-        // Fitur tarik untuk segarkan (Swipe to Refresh)
         binding.swipeRefreshLayout.setOnRefreshListener(this::loadData);
     }
 
@@ -55,8 +53,7 @@ public class MainActivity extends AppCompatActivity {
         binding.progressBar.setVisibility(View.VISIBLE);
         binding.swipeRefreshLayout.setRefreshing(true);
 
-        // Contoh: Mengambil resep kategori Seafood
-        String url = "https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood";
+        String url = "https://www.themealdb.com/api/json/v1/1/filter.php?c=Dessert";
 
         RequestQueue queue = Volley.newRequestQueue(this);
 
